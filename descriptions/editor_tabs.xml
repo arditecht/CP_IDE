@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<files>
+
+<editor>
+	<file>
+	<name>main</name>
+	<fullpath>./user_source/main.txt</fullpath>
+	</file>
+
+	<file>
+	<name>progress_A</name>
+	<fullpath>./user_source/source/progress1.txt</fullpath>
+	</file>
+
+	<file>
+	<name>progress_B</name>
+	<fullpath>./user_source/source/progress2.txt</fullpath>
+	</file>
+
+	<file>
+	<name>progress_C</name>
+	<fullpath>./user_source/source/progress3.txt</fullpath>
+	</file>
+
+	<file>
+	<name>TEST_A</name>
+	<fullpath>./user_source/source/test1.txt</fullpath>
+	</file>
+
+	<file>
+	<name>TEST_B</name>
+	<fullpath>./user_source/source/test2.txt</fullpath>
+	</file>
+
+	<file>
+	<name>TEST_C</name>
+	<fullpath>./user_source/source/test3.txt</fullpath>
+	</file>
+</editor>
+
+</files>

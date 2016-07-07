@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>TOGGLE IDE</title>
+<style type="text/css" media="screen">
+    #editor { 
+        position: absolute;
+        top: 10.2%;
+        right: 0;
+        bottom: 0;
+        left: 1.8%;
+		width: 70%;
+		height: 85.4%;
+    }
+</style>
+</head>
+
+
+<body style="background-color: black; overflow-x: hidden; overflow-y: hidden">
+
+
+<div id="header" style="background-color: #292929; border: 1px solid grey; height: 635px; padding-top: 10px;">
+	<label style="margin-left: 35px; margin-right: 110px; font-weight: bold; color: #ffffff; font-family: verdana; font-size: 20px"> <u>TOGGLE IDE</u> >> </label>
+	<label style="margin-right: 100px; color: #dddddd; font-weight: bold; font-family: sans-serif"> MAIN_FILE </label>
+	<label style="margin-right: 100px; color: #dddddd; font-weight: bold; font-family: sans-serif"> FILE_A </label>
+	<label style="margin-right: 100px; color: #dddddd; font-weight: bold; font-family: sans-serif"> FILE_B </label>
+	<label style="margin-right: 100px; color: #dddddd; font-weight: bold; font-family: sans-serif"> FILE_C </label>
+	<label style="margin-right: 100px; color: #dddddd; font-weight: bold; font-family: sans-serif"> TEST_A </label>
+	<label style="margin-right: 100px; color: #dddddd; font-weight: bold; font-family: sans-serif"> TEST_B </label>
+	<br><hr>
+</div>
+
+
+
+
+<div id="editor" style="border: 1px solid #dfdfdf">
+#include <iostream>
+int main(){
+	std::cout << "hello world" << std::endl;
+	return 0;
+}
+</div>
+    
+
+	
+	
+	
+<script src="ace-builds/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+	var theme = 'cobalt';
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/"+theme);
+    editor.getSession().setMode("ace/mode/c_cpp");
+	//alert("works");
+</script>
+</body>
+</html>
